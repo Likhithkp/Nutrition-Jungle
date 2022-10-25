@@ -1,0 +1,76 @@
+.Veg{
+    margin: 3rem;
+}
+
+.intro{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-style: italic;
+}
+
+.vegetables{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 70vh;
+   line-height: 2.5rem;
+   margin-top: 2rem;
+}
+
+.vegetables img{
+    height:300px;
+    margin-left:1rem;
+    margin-right: 2rem;
+}
+
+.vegetables h2{
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+}
+
+.vegetables .Info{
+    margin: 3rem;
+}
+
+@media(max-width:1080px){
+
+    .Veg{
+        max-width: fit-content;
+    }
+
+    .intro{
+        height: fit-content;
+        width: fit-content;
+    }
+    
+    .vegetables{
+       height: fit-content;
+       width: fit-content;
+       display: flex;
+       flex-direction: column;
+       background-color: rgb(123, 247, 247);
+       border-radius: 20px;
+       margin-bottom: 5rem;
+    }
+    
+    .vegetables img{
+        display: none;
+    }
+    
+    .vegetables h2{
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .last{
+        height: fit-content;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(123, 247, 247);
+        border-radius: 10px;
+    }
+}
+

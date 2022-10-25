@@ -1,0 +1,59 @@
+.food{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 3rem;
+}
+
+.food .info{
+    padding: 3rem;
+}
+
+.topNonVeg h1{
+    font-size: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.food img{
+    height: 300px;
+}
+
+.food p{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+@media(max-width:1080px){
+    .food{
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        width: fit-content;
+        text-align: center;
+    }
+    
+    .food .info{
+        height: fit-content;
+        width: fit-content;
+        background-color: rgb(133, 245, 245);
+        border-radius: 10px;
+    }
+    
+    .topNonVeg h1{
+        height: fit-content;
+        width: fit-content;
+        text-align: center;
+    }
+    
+    .food img{
+        display: none;
+    }
+    
+    .food p{
+        height: fit-content;
+        width: fit-content;
+    }
+}
